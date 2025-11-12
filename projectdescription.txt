@@ -1,0 +1,123 @@
+Final Project: IS Recruiting Insights Dashboard & Storytelling Chart
+Context
+The Information Systems department has a faculty and staff committee dedicated to recruiting students to apply to the IS program. I (Prof. Reese) serve on this committee. We want to use data to guide our recruiting decisions.
+When you were accepted into the program, you completed a survey asking about different recruiting events and how influential they were in your decision to apply. This survey was administered in 2024 and 2025.
+You will use this real data to create a dashboard and a storytelling chart that help our committee understand what’s working and where we can improve.
+This is not a “made-up” project. This is an actual need. With your permission, the top submissions may be shared with the IS Recruiting Committee, the IS Department, and the Information Systems Advisory Board (ISAB) to inform actual recruiting decisions. Your work can make a real impact.
+
+Project Objectives
+You have two deliverables for this project:
+Create a Dashboard that allows users to explore the survey data.
+
+
+Create a One-Slide Chart that communicates a meaningful insight about the data.
+
+Dashboard Requirements
+Our committee is interested in understanding what classes and recruiting activities most influence students’ decisions to apply.
+Your dashboard should be clean, professional, and interactive - designed for non-technical users to explore the data easily.
+General Dashboard Requirements
+The entire dashboard must be filterable by survey year and gender.
+
+
+It should be clear, intuitive, and follow the data visualization principles taught in class.
+
+
+You may use Tableau, Power BI, or another dashboard tool.
+
+
+Show your dashboard to at least two people for usability feedback.
+Data
+Here are the results of the survey, combined for both 2024 and 2025. When scoring a class or activity, a 0 means they went but it had no influence. No data means they did not attend the activity. The 1-3 is the scale of influence with 3 being the highest.
+
+Specific Views the Dashboard Must Include
+A. IS Prerequisite Classes
+Display the average influence score for each IS prerequisite class:
+ IS 110, IS 201, and IS 303.
+
+
+Clearly identify which class had the highest and lowest influence scores.
+
+
+When viewing all years together, allow for easy visual comparison between 2024 and 2025.
+B. Recruiting Activities
+Display the average influence score for each activity:
+IS Alumni Panel, IS Cookies & Milk Info Session, IS Academy, IS Professors, J Dawgs Info Session, MSB 180 Class, Marriott Night, and WAIS Events.
+(Note: While “IS Professors” isn’t technically an activity, include it in this group.)
+
+
+Clearly identify which activity had the highest and lowest average scores.
+
+
+When both years are selected, allow visual comparison between 2024 and 2025.
+C. “Very Influential” Counts
+Show how many students rated each activity and class as “Very Influential” (a 3).
+
+
+Highlight which activity or class had the most and fewest “3” ratings.
+
+
+Allow comparison between years.
+
+
+Hint: You’ll need to create calculated fields. Example:
+
+
+Count how many times IS Academy = 3.
+
+
+Count how many times IS 201 = 3.
+D. How Students Heard About the IS Program
+Show how students heard about IS (multiple-selection question). Each student may have multiple responses separated by commas.
+
+
+Display the count of students mentioning each option.
+
+
+Hint: Create calculated fields using CONTAINS() to count each response. Example:
+
+
+Count how many times the response contains “IS 201”.
+
+
+Count how many times it contains “Information Systems Alumni”.
+E. Admission Statistics (Coming Soon)
+You’ll receive a separate CSV file with admissions data to integrate later in a single chart.
+
+One-Slide Storytelling Chart
+In 2025, total applications to the IS program declined. Female applicants disproportionately declined. While external factors (economic uncertainty, AI disruptions, etc.) may play a role, we want to understand what the data tells us and what actions we can take.
+Create a single-slide chart that communicates one clear, actionable insight related to these questions:
+Choose one question to focus your one-slide storytelling chart.
+Select one of the questions below - or propose your own (with instructor approval). Your chart should use the data to uncover and communicate a clear insight that informs future recruiting decisions.
+What insights help explain the decline in 2025, and what steps might the department take to encourage more students to apply in future years?
+
+
+What insights help explain the disproportionate decline in female applicants in 2025, and what steps might the department take to encourage more female students to apply?
+
+
+What insights help explain what is currently going well with recruiting, and what activities or messages should be continued or expanded?
+
+
+What insights reveal how students are hearing about IS, and what does this suggest about the most effective outreach channels?
+
+
+What activities or touchpoints appear to be least effective or declining in influence, and how might they be redesigned or replaced?
+Design Expectations
+Follow Storytelling with Data principles
+
+
+You may use any design tool (Tableau, Power BI, Canva, PowerPoint, or a mix - create the base chart in one tool, screenshot it, and edit it in another tool).
+
+
+Show your slide to multiple people for feedback.
+
+Submission Instructions
+Submit the following:
+Dashboard: Public link (e.g., Tableau Public link or Power BI share link)
+
+
+Slide: PDF file of your storytelling chart
+
+Grading Rubric
+Coming soon
+
+
